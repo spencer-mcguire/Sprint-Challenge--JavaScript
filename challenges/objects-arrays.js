@@ -79,8 +79,7 @@ for(let i =0; i < graduates.length; i++){
 universities.sort();
 
 //using forEach
-// graduates.forEach(function(item){
-//     return universities.push(item.university)});
+// graduates.forEach(item => universities.push(item.university));
 // universities.sort();
 console.log(universities);
 
@@ -95,9 +94,7 @@ for(let i =0; i < graduates.length; i++){
   contactInfo.push(graduates[i].first_name + ' ' + graduates[i].email)
 }
 //using forEach
-// graduates.forEach(function(item){
-//   return contactInfo.push(`${item.first_name} ${item.email}`)
-// })
+// graduates.forEach(item => contactInfo.push(`${item.first_name} ${item.email}`));
 console.log(contactInfo);
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called unisWithUni that contains them all. This will be an array of objects. Log the result. */
