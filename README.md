@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    - .forEach only iterates over the given array, while .map creates a new array.
+
 2. What is the difference between a function and a method?
+
+    - a function is stand alone, a method is bound within an object-and can be passed from object to object. 
 
 3. What is closure?
 
+    - code that is identified elsewhere that we can use for later.
+
 4. Describe the four rules of the 'this' keyword.
 
+    - window binding(global), implicit binding(object left of dot), explicit binding(call, apply, bind are used) and new binding(new keyword used).
+
 5. Why do we need super() in an extended class?
+
+    - super replaces object.create, which in turn tells the ‘child’ class to inherit the props of the object it is extending from. 
 
 ## Project Set up
 
@@ -74,11 +84,11 @@ This challenge takes a look at callbacks and closures as well as scope.
 
 ## Task 3: Prototypes
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+* [√] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 ## Task 4: Classes
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [√] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
